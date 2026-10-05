@@ -19,6 +19,7 @@ public:
         int leftHeight=height(root->left);
         int rightHeight=height(root->right);
         diameter=max(diameter,leftHeight+rightHeight);
+        // diameter=leftHeight+rightHeight;
 
         return 1+max(leftHeight,rightHeight);
     }
