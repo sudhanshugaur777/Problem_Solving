@@ -19,8 +19,7 @@ public:
         int leftHeight=height(root->left);
         int rightHeight=height(root->right);
         diameter=max(diameter,leftHeight+rightHeight);
-        // diameter=leftHeight+rightHeight;
-
+        // diameter=leftHeight+rightHeight;//diameter through root case will be handled here
         return 1+max(leftHeight,rightHeight);
     }
     int diameterOfBinaryTree(TreeNode* root) {
