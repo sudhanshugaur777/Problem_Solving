@@ -13,7 +13,7 @@ public:
                 e=mid;
             }
         }
-        return s;
+        return e;//or return s
         
     }
 };
